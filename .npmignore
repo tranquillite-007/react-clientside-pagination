@@ -1,0 +1,51 @@
+# ============================================================
+# 📦 NPM Ignore - Files NOT to publish to npm
+# ============================================================
+
+# Development files
+src/
+tests/
+examples/
+__tests__/
+__mocks__/
+coverage/
+.storybook/
+.vscode/
+.idea/
+node_modules/
+
+# Environment and configs
+.env
+.env.*
+*.log
+*.lock
+*.cache
+*.tmp
+*.bak
+*.tsbuildinfo
+
+# Build scripts and meta
+rollup.config.js
+babel.config.js
+babel.config.json
+tsconfig.json
+*.config.js
+
+# Docs and assets
+*.md~
+*.docx
+*.pdf
+*.zip
+*.psd
+*.sketch
+*.fig
+
+# Local artifacts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Git and project metadata
+.gitignore
+.git/
+.github/

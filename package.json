@@ -1,0 +1,53 @@
+{
+  "name": "react-clientside-pagination",
+  "version": "1.0.0",
+  "description": "A flexible, robust, and production-ready React pagination component with controlled/uncontrolled modes, accessibility, and full customization",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepare": "npm run build",
+    "type-check": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "keywords": [
+    "react",
+    "pagination",
+    "hooks",
+    "accessible",
+    "customizable",
+    "typescript",
+    "react-pagination",
+    "pagination-package-for-react",
+    "easy pagination",
+    "api pagination"
+  ],
+  "author": "Aman Sinha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "your-repo-url"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
+    "@rollup/plugin-babel": "^6.1.0",
+    "@rollup/plugin-commonjs": "^28.0.8",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "rollup": "^2.79.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^5.9.3"
+  }
+}
