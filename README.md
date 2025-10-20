@@ -1,4 +1,4 @@
-# 🚀 react-clientside-pagination
+# react-clientside-pagination
 
 **A lightweight, flexible, and production-ready React pagination library built for modern frontend development.**  
 Supports both controlled and uncontrolled modes, responsive design, accessibility, and complete customization.
@@ -19,7 +19,7 @@ npm install react-clientside-pagination
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ```jsx
 import React from "react";
@@ -51,7 +51,7 @@ function CarListing() {
 
 ---
 
-## 🧠 Core Concepts
+## Core Concepts
 
 - **Data-driven pagination**: Pass any array of objects (e.g., products, users, cars).
 - **Controlled / Uncontrolled Modes**: Manage `currentPage` internally or externally.
@@ -62,7 +62,7 @@ function CarListing() {
 
 ---
 
-## 🧩 API Reference
+## API Reference
 
 ### `<Pagination />` Props
 
@@ -84,7 +84,7 @@ function CarListing() {
 
 ---
 
-## 🧠 Hook API: `usePagination`
+## Hook API: `usePagination`
 
 If you prefer a **headless logic-only** approach:
 
@@ -97,7 +97,7 @@ const { currentPage, totalPages, paginatedItems, goTo, goNext, goPrev } =
 
 ---
 
-## 🎨 Styling Options
+## Styling Options
 
 The component is **styling-agnostic** and works with any system.
 
@@ -117,7 +117,7 @@ Yes, you can! Wrap it in your own styled component or pass classNames dynamicall
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 
 - Full keyboard support (`ArrowLeft`, `ArrowRight`)
 - ARIA attributes (`aria-label`, `aria-current`)
@@ -126,7 +126,7 @@ Yes, you can! Wrap it in your own styled component or pass classNames dynamicall
 
 ---
 
-## 🚧 Troubleshooting
+## Troubleshooting
 
 | Issue                              | Cause                               | Fix                                                                 |
 | ---------------------------------- | ----------------------------------- | ------------------------------------------------------------------- |
@@ -136,7 +136,7 @@ Yes, you can! Wrap it in your own styled component or pass classNames dynamicall
 
 ---
 
-## 💡 FAQ
+## FAQ
 
 **Q:** Can I use styled-components or CSS modules?  
 **A:** Absolutely. The component doesn’t enforce any style system.
@@ -152,7 +152,7 @@ Yes, you can! Wrap it in your own styled component or pass classNames dynamicall
 
 ---
 
-## 🧰 Contributing
+## Contributing
 
 We welcome contributions!
 
@@ -166,34 +166,38 @@ Follow **semantic versioning** and add clear commit messages.
 
 ---
 
-## 🕒 Versioning
+## LICENSE
 
-This package follows [Semantic Versioning 2.0.0](https://semver.org/).  
-Breaking changes will be clearly documented in changelogs.
+MIT License
+
+Copyright (c) 2025 react-clientside-pagination
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ---
 
-## 🌍 Browser Compatibility
-
-| Browser | Supported |
-| ------- | --------- |
-| Chrome  | ✅        |
-| Firefox | ✅        |
-| Safari  | ✅        |
-| Edge    | ✅        |
-
-Works on all modern browsers supporting React 18+.
-
----
-
-## 🧾 License
-
-MIT © 2025 — react-clientside-pagination
-
----
-
-## 💬 Connect
+## Connect
 
 - **NPM:** [https://www.npmjs.com/package/react-clientside-pagination](https://www.npmjs.com/package/react-clientside-pagination)
 
 ---
+
+```
+
+```

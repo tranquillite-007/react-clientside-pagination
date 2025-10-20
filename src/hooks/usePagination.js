@@ -15,13 +15,11 @@ export const usePagination = (props = {}) => {
     onPageChange: controlledOnPageChange,
   } = props;
 
-  // Use ref to track if we've logged warnings to avoid duplicates
   const hasWarned = useRef({
     controlledWithoutHandler: false,
     bothPageProps: false,
   });
 
-  // Validate props - this runs on every render but only warns once
   if (process.env.NODE_ENV !== "production") {
     if (
       controlledCurrentPage !== undefined &&
@@ -61,7 +59,6 @@ export const usePagination = (props = {}) => {
     : internalState.currentPage;
   const itemsPerPage = internalState.itemsPerPage;
 
-  // Rest of the hook remains the same...
   const setCurrentPage = useCallback(
     (page) => {
       if (!isControlled) {

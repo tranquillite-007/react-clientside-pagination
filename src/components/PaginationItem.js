@@ -43,7 +43,6 @@ const PaginationItem = ({
     }
   };
 
-  // Filter out custom props that shouldn't go to DOM elements
   const domProps = { ...props };
   delete domProps.activeClassName;
   delete domProps.disabledClassName;

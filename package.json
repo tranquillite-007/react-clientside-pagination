@@ -4,6 +4,7 @@
   "description": "A flexible, robust, and production-ready React pagination component with controlled/uncontrolled modes, accessibility, and full customization",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
+  "types": "types/index.d.ts",
   "files": [
     "dist",
     "types"
@@ -12,11 +13,12 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "prepare": "npm run build",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
   },
   "keywords": [
     "react",
@@ -25,16 +27,21 @@
     "accessible",
     "customizable",
     "typescript",
+    "clientside",
     "react-pagination",
-    "pagination-package-for-react",
-    "easy pagination",
-    "api pagination"
+    "ui-components",
+    "frontend",
+    "react-components"
   ],
   "author": "Aman Sinha",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "your-repo-url"
+    "url": "git+https://github.com/tranquillite-007/react-clientside-pagination.git"
+  },
+  "homepage": "https://github.com/tranquillite-007/react-clientside-pagination#readme",
+  "bugs": {
+    "url": "https://github.com/tranquillite-007/react-clientside-pagination/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.28.4",
