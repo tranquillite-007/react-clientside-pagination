@@ -18,7 +18,9 @@ Ensure you have **React 18+** installed.
 ```bash
 npm install react-clientside-pagination
 ```
+or 
 
+https://www.npmjs.com/package/react-clientside-pagination
 ---
 
 ## Quick Start
