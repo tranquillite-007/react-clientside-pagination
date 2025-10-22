@@ -4,7 +4,9 @@
 Supports both controlled and uncontrolled modes, responsive design, accessibility, and complete customization.
 
 ![npm version](https://img.shields.io/npm/v/react-clientside-pagination.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
+<!-- ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) -->
+
 ![React](https://img.shields.io/badge/React-18%2B-61DAFB?logo=react)
 
 ---
@@ -161,11 +163,12 @@ We welcome contributions!
 3. Implement your changes
 4. Run `npm run build`
 5. Submit a pull request
-
-Follow **semantic versioning** and add clear commit messages.
+<!--
+Follow **semantic versioning** and add clear commit messages. -->
 
 ---
 
+<!--
 ## LICENSE
 
 MIT License
@@ -186,4 +189,4 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+SOFTWARE. -->
