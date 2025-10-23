@@ -53,6 +53,67 @@ function CarListing() {
 
 ---
 
+## Default css for starter
+
+```
+
+/_ Pagination container _/
+.pagination {
+display: flex;
+justify-content: center;
+align-items: center;
+list-style: none;
+gap: 6px;
+padding: 10px 0;
+margin-top: 20px;
+}
+
+/_ Pagination button wrapper _/
+.pagination-item button {
+background-color: #f8f9fa;
+border: 1px solid #ccc;
+color: #333;
+padding: 6px 12px;
+cursor: pointer;
+font-size: 14px;
+border-radius: 4px;
+transition: all 0.2s ease-in-out;
+}
+
+/_ Hover state _/
+.pagination-item button:hover {
+background-color: #007bff;
+color: white;
+border-color: #007bff;
+}
+
+/_ Active (current) page _/
+.pagination-item--current button {
+background-color: #007bff;
+color: white;
+border-color: #007bff;
+cursor: default;
+}
+
+/_ Disabled navigation (Prev/Next) _/
+.pagination-item--disabled button {
+background-color: #e9ecef;
+color: #999;
+border-color: #ddd;
+cursor: not-allowed;
+}
+
+/_ Ellipsis (for long page ranges) _/
+.pagination-ellipsis {
+color: #777;
+font-weight: bold;
+user-select: none;
+padding: 0 6px;
+}
+```
+
+---
+
 ## Core Concepts
 
 - **Data-driven pagination**: Pass any array of objects (e.g., products, users, cars).
