@@ -1,6 +1,6 @@
 {
   "name": "react-clientside-pagination",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A flexible, robust, and production-ready React pagination component with controlled/uncontrolled modes, accessibility, and full customization",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
