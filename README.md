@@ -6,6 +6,7 @@ Supports both controlled and uncontrolled modes, responsive design, accessibilit
 ![npm version](https://img.shields.io/npm/v/react-clientside-pagination.svg)
 
 <!-- ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) -->
+![npm downloads](https://img.shields.io/npm/dt/react-clientside-pagination.svg)
 
 ![React](https://img.shields.io/badge/React-18%2B-61DAFB?logo=react)
 
